@@ -1,5 +1,3 @@
-import cartActionTypes from "./cart.types"
-
 export const addItemToCart = (cartItems, cartItemToAdd) => {
     const existingItem = cartItems.find(cartITEM =>cartITEM.id === cartItemToAdd.id)
     
